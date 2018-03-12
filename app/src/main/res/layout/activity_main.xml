@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lei.studyvolley.MainActivity">
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="要查询的手机号码"
+        android:inputType="phone"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用get方式查询"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:textColor="#fa817f7f"
+        android:background="#4cdf12"/>
+    <EditText
+        android:id="@+id/et_tuling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="和图灵聊天"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用post方式查询"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:textColor="#fa817f7f"
+        android:background="#4cdf12"/>
+    <Button
+        android:id="@+id/btn_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用JsonObjectRequest查询"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:textColor="#fa817f7f"
+        android:background="#4cdf12"/>
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#535758"/>
+
+</LinearLayout>
